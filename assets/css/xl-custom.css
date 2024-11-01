@@ -1,0 +1,60 @@
+/**
+ * Plugin Name: Testimonials Carousel
+ * Plugin URI: http://www.xltheme.com/plugin/xl-testimonials-carousel
+ * Description: This is a testimonials carousel plugin.
+ * Author: Khandaker Ikrama
+ * Author URI: http://www.ikrama.info/
+ * Text Domain: xl
+ * Version: 1.0.0
+ */
+
+.owl-carousel {
+    width: auto;
+}
+.xl-carousel {
+    position: relative;
+    padding: 0 60px;
+}
+.xl-testi {
+
+}
+.xl-testi .xl-content {
+
+}
+.xl-testi .xl-client {
+    clear: both;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.xl-testi .xl-thumb {
+    float: left;
+    margin-right: 15px;
+}
+.xl-testi .xl-info {
+    overflow: hidden;
+    margin-top: 11px;
+}
+.xl-testi .xl-name {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.xl-testi .xl-country {
+    font-size: .8em;
+}
+.owl-carousel .owl-item img {
+    width: 80px;
+    border-radius: 100%;
+}
+.xl-carousel .owl-prev,
+.xl-carousel .owl-next {
+    font-size: 1.562em;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.xl-carousel .owl-prev {
+    left: 0;
+}
+.xl-carousel .owl-next {
+    right: 0;
+}
